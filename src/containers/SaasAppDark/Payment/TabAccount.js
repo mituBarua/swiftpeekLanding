@@ -1,6 +1,7 @@
 // ** MUI Imports
 import Grid from "@mui/material/Grid";
-import SignUp from "./billing/signUp";
+import SignUp from "./billing/SignUp";
+
 
 const TabAccount = () => {
   return (
