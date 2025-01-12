@@ -86,7 +86,7 @@ const Banner = () => {
             </Buttons>
           </BannerContent>
           <Figure className="hero-banner">
-            <NextImage src={dashboard} alt="dashboard" />
+            <img src={dashboard?.src} alt="dashboard" />
           </Figure>
         </BannerContentWrapper>
       </Container>

@@ -60,7 +60,7 @@ const Clients = () => {
             {clients.map((client, i) => (
               <Fragment key={i}>
                 <Figure>
-                  <NextImage src={client} alt="logo" />
+                  <img src={client?.src} alt="logo" />
                 </Figure>
               </Fragment>
             ))}

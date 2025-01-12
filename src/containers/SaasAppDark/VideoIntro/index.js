@@ -65,7 +65,7 @@ const VideoIntro = () => {
           <Text content="When you search youtube, Our extension is able to also search youtube with the most used languages out there, Translate it back to you, You can gain new results never seen before" />
         </SectionHeading>
         <Figure>
-          <NextImage src={banner} alt="video banner" />
+          <img src={banner?.src} alt="video banner" />
           <PlayButton onClick={handleVideoModal}>
             <img src={playIcon?.src} alt="play Icon" />
           </PlayButton>

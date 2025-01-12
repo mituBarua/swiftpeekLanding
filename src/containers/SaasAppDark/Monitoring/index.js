@@ -45,7 +45,7 @@ const Monitoring = () => {
       <Container width="1300px">
         <Grid>
           <Fade up>
-            <NextImage src={report1} alt="report1" className="extensionImg"  />
+            <img src={report1?.src} alt="report1" className="extensionImg"  />
           </Fade>
 
           <Content>
